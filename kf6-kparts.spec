@@ -47,6 +47,7 @@ Requires:	kf6-kjobwidgets >= %{version}
 Requires:	kf6-kservice >= %{version}
 Requires:	kf6-kwidgetsaddons >= %{version}
 Requires:	kf6-kxmlgui >= %{version}
+Obsoletes:	kf5-%{kfname} < %{version}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		qt6dir		%{_libdir}/qt6
@@ -64,6 +65,7 @@ Requires:	%{name} = %{version}-%{release}
 Requires:	kf6-kio-devel >= %{version}
 Requires:	kf6-ktextwidgets-devel >= %{version}
 Requires:	kf6-kxmlgui-devel >= %{version}
+Obsoletes:	kf5-%{kfname}-devel < %{version}
 
 %description devel
 Header files for %{kfname} development.
