@@ -1,18 +1,18 @@
 #
 # Conditional build:
 %bcond_with	tests		# build with tests
-%define		kdeframever	6.7
+%define		kdeframever	6.8
 %define		qtver		5.15.2
 %define		kfname		kparts
 
 Summary:	Plugin framework for user interface components
 Name:		kf6-%{kfname}
-Version:	6.7.0
+Version:	6.8.0
 Release:	1
 License:	LGPL v2.1+
 Group:		X11/Libraries
 Source0:	https://download.kde.org/stable/frameworks/%{kdeframever}/%{kfname}-%{version}.tar.xz
-# Source0-md5:	dad7664291cd1e09b3e0074356e0349e
+# Source0-md5:	b52cc36c0ce41080204d18f4f74af00b
 URL:		http://www.kde.org/
 BuildRequires:	Qt6Core-devel >= %{qtver}
 BuildRequires:	Qt6Test-devel >= %{qtver}
