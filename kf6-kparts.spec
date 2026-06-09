@@ -58,6 +58,11 @@ This library implements the framework for KDE parts, which are
 elaborate widgets with a user-interface defined in terms of actions
 (menu items, toolbar icons).
 
+%description -l pl.UTF-8
+Ta biblioteka implementuje szkielet dla części KDE, które są
+szczegółowymi widżetami z interfejsem użytkownika zdefiniowanym w
+terminach akcji (pozycje menu, ikony paska narzędzi).
+
 %package devel
 Summary:	Header files for %{kfname} development
 Summary(pl.UTF-8):	Pliki nagłówkowe dla programistów używających %{kfname}
