@@ -8,7 +8,7 @@
 Summary:	Plugin framework for user interface components
 Name:		kf6-%{kfname}
 Version:	6.29.0
-Release:	2
+Release:	3
 License:	LGPL v2.1+
 Group:		X11/Libraries
 Source0:	https://download.kde.org/stable/frameworks/%{kdeframever}/%{kfname}-%{version}.tar.xz
@@ -69,7 +69,7 @@ Summary(pl.UTF-8):	Pliki nagłówkowe dla programistów używających %{kfname}
 Group:		X11/Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	kf6-kio-devel >= %{version}
-Requires:	kf6-ktextwidgets-devel >= %{version}
+Requires:	kf6-kservice-devel >= %{version}
 Requires:	kf6-kxmlgui-devel >= %{version}
 #Obsoletes:	kf5-%{kfname}-devel < %{version}
 
